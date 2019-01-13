@@ -18,6 +18,9 @@ a pre-installed container/server).
 1. There are no detailed requirements, use common sense.
 
 # Implementation comment
+## Status
+[![Build Status](https://travis-ci.org/hutoroff/revolutTestTask.svg?branch=master)](https://travis-ci.org/hutoroff/revolutTestTask)
+[![Coverage Status](https://coveralls.io/repos/github/hutoroff/revolutTestTask/badge.svg?branch=master)](https://coveralls.io/github/hutoroff/revolutTestTask?branch=master)
 ## Build
 To build run:
 ```
