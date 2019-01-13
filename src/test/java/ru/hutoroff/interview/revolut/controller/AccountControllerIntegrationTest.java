@@ -1,19 +1,12 @@
-package ru.hutoroff.interview.revolut.api.controller;
-
-import static io.restassured.RestAssured.get;
-import static io.restassured.RestAssured.put;
-import static org.hamcrest.Matchers.equalTo;
-import static org.junit.Assert.assertEquals;
+package ru.hutoroff.interview.revolut.controller;
 
 import com.google.gson.Gson;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.jooby.test.JoobyRule;
-import org.jooby.test.MockRouter;
 import org.junit.Assert;
 import org.junit.ClassRule;
-import org.junit.Ignore;
 import org.junit.Test;
 import ru.hutoroff.interview.revolut.AbstractIntegrationTest;
 import ru.hutoroff.interview.revolut.App;
@@ -23,7 +16,7 @@ import ru.hutoroff.interview.revolut.data.entity.impl.Account;
 
 import java.math.BigDecimal;
 
-public class AccountControllerTest extends AbstractIntegrationTest {
+public class AccountControllerIntegrationTest extends AbstractIntegrationTest {
 
   @ClassRule
   public static JoobyRule app = new JoobyRule(new App());

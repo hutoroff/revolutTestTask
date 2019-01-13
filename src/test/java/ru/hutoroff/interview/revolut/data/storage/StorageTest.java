@@ -10,7 +10,6 @@ import ru.hutoroff.interview.revolut.data.exception.StorageException;
 import ru.hutoroff.interview.revolut.data.storage.impl.AccountStorage;
 
 import java.math.BigDecimal;
-import java.util.Collection;
 
 public class StorageTest {
 

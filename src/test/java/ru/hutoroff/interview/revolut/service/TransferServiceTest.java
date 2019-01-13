@@ -12,8 +12,6 @@ import ru.hutoroff.interview.revolut.service.exception.BusinessException;
 
 import java.math.BigDecimal;
 
-import static org.junit.Assert.*;
-
 public class TransferServiceTest {
 
     @Rule

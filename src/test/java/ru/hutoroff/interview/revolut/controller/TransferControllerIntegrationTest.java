@@ -1,4 +1,4 @@
-package ru.hutoroff.interview.revolut.api.controller;
+package ru.hutoroff.interview.revolut.controller;
 
 import com.google.gson.Gson;
 import io.restassured.RestAssured;
@@ -12,11 +12,10 @@ import ru.hutoroff.interview.revolut.AbstractIntegrationTest;
 import ru.hutoroff.interview.revolut.App;
 import ru.hutoroff.interview.revolut.controller.dto.AccountResponse;
 import ru.hutoroff.interview.revolut.controller.dto.TransferRequest;
-import ru.hutoroff.interview.revolut.data.entity.impl.Account;
 
 import java.math.BigDecimal;
 
-public class TransferControllerTest extends AbstractIntegrationTest {
+public class TransferControllerIntegrationTest extends AbstractIntegrationTest {
 
     @ClassRule
     public static JoobyRule app = new JoobyRule(new App());

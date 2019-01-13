@@ -8,15 +8,13 @@ import ru.hutoroff.interview.revolut.data.storage.impl.AccountStorage;
 
 import java.math.BigDecimal;
 
-import static org.junit.Assert.*;
-
 public class AccountServiceTest {
 
     private AccountService accountService;
     private AccountStorage accountStorage;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         accountStorage = new AccountStorage();
         accountService = new AccountService(accountStorage);
     }
